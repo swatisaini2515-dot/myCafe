@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MY CAFE</title>
+  <style>
+    /* --- Reset & Base Styles --- */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      color: #0d0c0c;
+      line-height: 1.6;
+      background-color: #e2bba6;
+      
+                  
+    
+    }
+
+    /* --- Header --- */
+    header {
+      background: url('cafwall.jpg') 
+                  center/cover no-repeat;
+      color: rgb(19, 16, 13);
+      height: 80vh;
+      text-align: center;
+      padding: 250px 50px;
+    }
+    header h1 {
+        
+      font-size: 3rem;
+      font-family: 'Courier New', Courier, monospace;
+      text-align: center;
+      letter-spacing: 2px;
+      text-shadow: 2px 2px 6px rgba(212, 185, 185, 0.4);
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+
+    /* --- Navigation --- */
+    nav {
+      background: #3b2820;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: #d3c8bc;
+      text-decoration: none;
+      padding: 15px 25px;
+      display: block;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    nav a:hover {
+      background: #d68042;
+      
+    }
+
+    /* --- Sections --- */
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section h2 {
+      text-align: center;
+      color: #3e2c24;
+      margin-bottom: 20px;
+    }
+
+    /* --- Menu --- */
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 20px;
+    }
+    .menu-item {
+      background: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 2px 6px rgba(222, 214, 214, 0.1);
+      text-align: center;
+    }
+    .menu-item h3 {
+      color: #704c38;
+      margin-bottom: 10px;
+    }
+    .menu-item p {
+      font-size: 0.95rem;
+      color: #555;
+    }
+
+    /* --- About --- */
+    .about {
+      background: #c7b4a3;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* --- Contact --- */
+    .contact {
+      text-align: center;
+    }
+    .contact a {
+      color: #704c38;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    /* --- Footer --- */
+    footer {
+      background: #974927;
+      color: #fdf5e6;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 2.2rem; }
+      nav a { padding: 10px 15px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>WELCOME TO JELLY BEANS</h1>
+    
+  </header>
+
+  <nav>
+    <a href="#menu">Menu</a>
+    <a href="ab.html">About</a> 
+    <a href="rr.html">Review Us</a>
+    <a href="#contact">Contact</a>
+
+  </nav>
+ <section id="about">
+    <div class="about">
+      <p>Welcome to Jelly Beans Cafe- Slice of life. Where you step into realm of life.<br>
+        At Jelly Beans  get ready to embark on a journey of taste bud intrigue and calm atmosphere.<br>
+        Nestled in a warm and  inviting ambiance.<br>
+        The perfect spot to relax and unwind.<br>
+        With  plush seating, soft lighting and a peaceful vibe<br> 
+         We’re passionate about serving ethically sourced coffee and fresh, handmade treats.
+         Whether you’re here to work, relax, or catch up with friends, you’ll always find a warm welcome.</p>
+    </div>
+  </section>
+
+  <section id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu">
+      <div class="menu-item">
+        <h3>Espresso</h3>
+        <img src="espresso.jpeg" alt="jb espresso">
+        <p>Rich and bold, our signature shot of coffee perfection.</p>
+        <p><strong>Rs.200/-</strong></p>
+      </div>
+      <div class="menu-item">
+        <h3>Latte</h3>
+        <img src="latte.jpeg" alt="jb latte">
+        <p>Steamed milk blended with smooth espresso and topped with foam.</p>
+        <p><strong>Rs.250/-</strong></p>
+      </div>
+      <div class="menu-item">
+        <h3>Croissant</h3>
+        <img src="croissant.jpeg" alt="jb croissant">
+        <p>Flaky, buttery, and baked fresh every morning.</p><br>
+        <p><strong>Rs.150/-</strong></p>
+      </div>
+      <div class="menu-item">
+        <h3>Mocha</h3>
+        <img src="mocha.jpeg" alt="jb mocha">
+        <p>A sweet combination of chocolate, espresso, and milk.</p>
+        <p><strong>Rs.250/-</strong></p>
+      </div>
+    </div>
+  </section>
+  <br><br><br><br><br>
+
+ 
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="contact">
+      <p>📍 123 Bean Street, Brewtown</p>
+      <p>📞 (123) 456-7890</p>
+      <p>✉️ <a href="mailto:info@jbcafe.com">info@jbcafe.com</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy;All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

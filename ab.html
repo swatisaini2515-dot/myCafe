@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us | Jelly Beans</title>
+  <style>
+    /* --- Base Styles --- */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      color: #333;
+      background-color: #e2bba6;
+      line-height: 1.6;
+    }
+
+    /* --- Header --- */
+    header {
+     
+      background: url('cafeout.png')
+                  center/cover no-repeat;
+      color: rgba(236, 233, 231, 0.915);
+      text-align: center;
+      padding: 150px 50px;
+    }
+    header h1 {
+      font-size: large;
+      
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+
+    /* --- Navigation --- */
+    nav {
+      background: #3e2c24;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: #fdf5e6;
+      text-decoration: none;
+      padding: 15px 25px;
+      display: block;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    nav a:hover {
+      background: #704c38;
+    }
+
+    /* --- Sections --- */
+    section {
+      padding: 60px 10px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section h2 {
+      text-align: center;
+      color: #3e2c24;
+      margin-bottom: 20px;
+    }
+
+    /* --- Story --- */
+    .story {
+      background: #cb9e76;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      margin-bottom: 40px;
+    }
+
+    /* --- Mission --- */
+    .mission {
+      background: #cb9e76;
+      padding: 10px;
+      border-radius: 10px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .mission p {
+      font-size: 1.05rem;
+    }
+
+   
+
+    /* --- Footer --- */
+    footer {
+      background: #3e2c24;
+      color: #fdf5e6;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 2.2rem; }
+      nav a { padding: 10px 15px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <br><br><br><br><br><br>
+   
+  <br>
+    <p> For people who have desire to have a place to relax, can gather and interact.<br>
+    We take pride in our assortment of flavors and roasts.<br>
+    We source our coffee beans ethically and sustainably.<br><br>
+    Need more than just a coffee fix? Our dinning menu includes organic options, plus sweets & savories. 
+    <br>We'll make it the way you want it, whether your going keto, vegan, or paleo.
+
+    </p>
+  </header>
+
+  <nav>
+    <a href="MYCAFE.html">Home</a>
+    <a href="rr.html">Review Us</a>
+  </nav>
+
+  <section id="our-story">
+    <h2>Our Story</h2>
+    <div class="story">
+      <p>
+        We began as a small family-run coffee spot, inspired by a love for 
+        freshly roasted beans and community spirit. What started with a single espresso machine 
+        and a handful of pastries has now grown into a warm neighborhood gathering place 
+        where every customer feels at home.
+      </p>
+      <p style="margin-top:15px;">
+        Our mission is simple — ensuring we benefit both our customers and the environment.
+        and make every visit a delightful experience. Whether you’re grabbing a quick cup on your way to work 
+        or settling in for a long conversation, we’re here to make your day better.
+      </p>
+    </div>
+  </section>
+  <section id="mission">
+    <h2>Our Mission</h2>
+    <div class="mission">
+      <p>
+        To brew happiness in every cup by blending sustainability, craftsmanship, and community.</p>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
